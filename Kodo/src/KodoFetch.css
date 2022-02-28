@@ -1,0 +1,29 @@
+.Users {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  @media (min-width: 600px) {
+    .Users {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .Users {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .tables {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
